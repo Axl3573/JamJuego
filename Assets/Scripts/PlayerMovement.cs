@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+<<<<<<< HEAD
 
     private Rigidbody2D Rigidbody2D;
     private Animator Animator;
@@ -57,5 +58,17 @@ public class PlayerMovement : MonoBehaviour
     {
         Rigidbody2D.velocity = new Vector2(Horizontal * speed, Rigidbody2D.velocity.y);
     
+=======
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+>>>>>>> a48e33687de304ee56264717c4314701eee7c3f6
     }
 }
